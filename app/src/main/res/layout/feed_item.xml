@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:layout_margin="12dp"
+        style="@style/Base.ThemeOverlay.AppCompat.Dark">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ndate"
+            android:textSize="16sp"
+            android:text="DATE"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ntext"
+            android:textSize="15sp"
+            android:text="TEXT"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_below="@+id/ndate"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

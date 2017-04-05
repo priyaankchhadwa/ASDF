@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mrc.gaurav.asdf.Generate_Notifications">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/message"
+        android:hint="Type your message here"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:id="@+id/generate"
+        android:text="Send Notification"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="70dp" />
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:elevation="8dp"
+    android:background="@drawable/shadow">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:id="@+id/feed_item_pref"
+        android:padding="12dp"
+        android:layout_margin="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/idtext"
+            android:textColor="#000"/>
+
+        <TextView
+            android:text="02/10/2105"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/date"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:textColor="#444"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/idtext"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Morning Slot"
+            android:textColor="#444"
+            android:layout_below="@+id/idtext"
+            android:layout_marginTop="10dp"
+            android:id="@+id/slot1text"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pref_slot1_option"
+            android:layout_marginLeft="20dp"
+            android:spinnerMode="dialog"
+            android:layout_below="@id/date"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/slot1text"
+            android:layout_alignBottom="@+id/slot1text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Evening Slot"
+            android:textColor="#444"
+            android:layout_below="@+id/slot1text"
+            android:layout_marginTop="10dp"
+            android:id="@+id/slot2text"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pref_slot2_option"
+            android:layout_marginLeft="20dp"
+            android:spinnerMode="dialog"
+            android:layout_below="@id/pref_slot1_option"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/slot2text"
+            android:layout_alignBottom="@+id/slot2text" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

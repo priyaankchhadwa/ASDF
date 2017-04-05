@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ASDF</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="admin">Admin</string>
+    <string name="splash_acronym_expand">Allocation of Supervison Duties for Faculty</string>
+    <string name="title_activity_navigator">Navigator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="pref_options">
+        <item>none</item>
+        <item>prefer</item>
+        <item>not prefered</item>
+    </string-array>
+</resources>

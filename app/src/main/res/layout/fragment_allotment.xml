@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mrc.gaurav.asdf.Allotment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="allotment"
+        android:layout_below="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asdf"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="98dp"
+        android:id="@+id/button" />
+
+</RelativeLayout>

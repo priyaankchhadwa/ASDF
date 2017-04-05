@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.mrc.gaurav.asdf.Profile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Notifications"
+        android:textStyle="bold"
+        android:id="@+id/heading"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/notification_list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/heading"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:divider="@null"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>

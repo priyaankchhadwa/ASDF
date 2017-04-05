@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="48dp"
+    android:padding="12dp"
+    tools:context="com.mrc.gaurav.asdf.Preferences">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Preferences"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:id="@+id/heading"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Update Your peferences on following Exam days"
+        android:layout_below="@+id/heading"
+        android:textAlignment="center"
+        android:textColor="#444"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/sub_heading"/>
+
+    <ListView
+        android:id="@+id/preferences_list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sub_heading"
+        android:divider="@null"/>
+
+</RelativeLayout>
